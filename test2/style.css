@@ -1,0 +1,40 @@
+body {
+    background-color: #eedbdb;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+    color: #fff;
+}
+.counter-container {
+    background-color: #0c15b7;
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    margin: 100px auto;
+    box-shadow: 0 0 10px rgba(246, 238, 238, 0.1);
+}
+.counter-container h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.counter-container textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.counter-container .counter-info {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ece0e0;
+    display: flex;
+    justify-content: space-between;
+}
+.counter-container .counter-info span {
+    color: rgb(234, 23, 23);
+}
