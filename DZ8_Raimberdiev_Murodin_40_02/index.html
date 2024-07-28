@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Бронирование отеля</title>
+    <link
+      rel="stylesheet"
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="img-area">
+    </div>
+    <div class="container">
+      <div class="header">
+        <h2>Бронирование отеля</h2>
+      </div>
+      <form id="form" class="form">
+        <div class="form-control">
+          <label class="required" for="username">Дата заезда</label>
+          <input type="date"  id="arrivalDate" />
+        </div>
+        <div class="form-control">
+          <label class="required" for="departureDate">Дата выезда</label>
+          <input type="date" id="departureDate" />
+        </div>
+        <div class="form-control">
+          <label for="password">Количество комнат</label>
+          <input
+            type="number" min="1" , max="5"
+            id="numbers"
+          />
+        <input type="submit" value="Подтвердить бронь" />
+      </form>
+      </div>
+    </div> 
+         <div class="img">
+        <img src="assets/white-pillow-bed.jpg" alt="">
+  </body>
+</html>
